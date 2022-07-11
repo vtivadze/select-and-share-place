@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { GOOGLE_API_KEY, URL } from '../config';
 
-declare var google: any;
+// declare var google: any;
 
 const form = document.querySelector('form')! as HTMLFormElement;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
